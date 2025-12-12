@@ -1,2 +1,2 @@
-# aggression-detection-NLP
+# Aggression-Detection-NLP
 Implementation code for aggression and offensive language detection to identify cyber trolling using NLP and deep learning.
