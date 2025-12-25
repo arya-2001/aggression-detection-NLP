@@ -91,23 +91,10 @@ Recommended evaluation artifacts:
 
 ---
 
-## ⚙️ Requirements
-
-- Python 3.8+
-- NumPy
-- Pandas
-- Scikit-learn
-- TensorFlow / Keras
-- PyTorch
-- HuggingFace Transformers
-- Matplotlib / Seaborn
-
----
-
 ## 🚀 How to Run
 
-1. Clone the repository:
-
+### Install dependencies
+'''bash
 pip install -r requirements.txt
 
 
