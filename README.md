@@ -1,4 +1,4 @@
-# Aggressive and Offensive Language Detection for Cyber Trolling using NLP
+# Aggressive and Offensive Language Detection for Identifying Cyber Trolling using NLP
 
 ## 📌 Overview
 
