@@ -107,15 +107,11 @@ Recommended evaluation artifacts:
 ## 🚀 How to Run
 
 1. Clone the repository:
-```bash
-git clone https://github.com/your-username/aggression-detection-cyber-trolling.git
-
-2. Install dependencies:
 
 pip install -r requirements.txt
 
 
-Execute notebooks in the following order:
+2. Execute notebooks in the following order:
 
 ML_Cyber_Troll_OLID.ipynb
 
