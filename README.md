@@ -75,3 +75,37 @@ The research explores three major experimental pipelines:
 
 ## 📂 Repository Structure
 
+
+---
+
+## 🧪 Experimental Results
+
+- Hybrid fusion models consistently outperform standalone models
+- Transformer-based models provide strong contextual baselines
+- Combining **symbolic decision boundaries (SVM)** with **deep semantic embeddings** yields the best performance
+
+Recommended evaluation artifacts:
+- Confusion matrices
+- Accuracy and F1-score comparison plots
+- Model architecture diagrams
+
+---
+
+## ⚙️ Requirements
+
+- Python 3.8+
+- NumPy
+- Pandas
+- Scikit-learn
+- TensorFlow / Keras
+- PyTorch
+- HuggingFace Transformers
+- Matplotlib / Seaborn
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/aggression-detection-cyber-trolling.git
