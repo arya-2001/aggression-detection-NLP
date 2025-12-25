@@ -118,3 +118,8 @@ The research explores three major experimental pipelines:
 - Transformer-based models provide strong contextual baselines
 - Combining **symbolic decision boundaries (SVM)** with **deep semantic embeddings** yields the best performance
 ---
+## 🚀 How to Run
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
