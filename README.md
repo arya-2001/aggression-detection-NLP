@@ -120,6 +120,6 @@ The research explores three major experimental pipelines:
 ---
 ## 🚀 How to Run
 
-### Install dependencies
+- Install dependencies
 ```bash
 pip install -r requirements.txt
