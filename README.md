@@ -46,10 +46,11 @@ The research explores three major experimental pipelines:
 - **DL Models**: CNN, LSTM, BiLSTM  
 - **Embeddings**: Word2Vec, GloVe, FastText, NRC Emotion Features
 <p align="center">
-  ![Approach_1_Final3](https://github.com/user-attachments/assets/d2617aef-9892-4538-b837-0b2650201c96)
+  <img width="1143" height="1059" alt="image" src="https://github.com/user-attachments/assets/b9931f34-1c27-4f87-8b49-149dba37ea55" />
+
 </p>
 <p align="center">
-  <b>Figure 1:</b> System Architecture of Approach 2.
+  <b>Figure 1:</b> System Architecture of Approach 1.
 </p> 
 
 ### 🔹 Approach 2: Transformer-Based Fine-Tuning
@@ -94,13 +95,26 @@ The research explores three major experimental pipelines:
 
 ## 🧪 Experimental Results
 
+<p align="center">
+<img width="1027" height="301" alt="image" src="https://github.com/user-attachments/assets/b8d627e2-db25-4132-b2e3-03611f842377" /></p>
+<p align="center">
+  <b>Figure 4:</b> Confusion matrices of LSTM, CNN, and BiLSTM models using the GloSVM-DL approach on the Cyber-Troll dataset.
+</p> 
+<p align="center">
+<img width="1027" height="293" alt="image" src="https://github.com/user-attachments/assets/32268c37-c607-47a8-81a3-b3e37ba55f78" />
+</p>
+<p align="center">
+  <b>Figure 5:</b> Confusion matrices of LSTM, CNN, and BiLSTM models using the GloSVM-DL approach on the OLID dataset.
+</p> 
+<p align="center">
+<img width="1041" height="350" alt="image" src="https://github.com/user-attachments/assets/f47b6f44-d92b-4415-abb8-32204ea851ac" />
+
+</p>
+<p align="center">
+  <b>Figure 6:</b> Performance comparison of the best-performing models across three approaches on both datasets.
+</p> 
+
 - Hybrid fusion models consistently outperform standalone models
 - Transformer-based models provide strong contextual baselines
 - Combining **symbolic decision boundaries (SVM)** with **deep semantic embeddings** yields the best performance
-
-Recommended evaluation artifacts:
-- Confusion matrices
-- Accuracy and F1-score comparison plots
-- Model architecture diagrams
-
 ---
