@@ -44,13 +44,26 @@ The research explores three major experimental pipelines:
 - **ML Models**: SVM, Logistic Regression, Naïve Bayes  
 - **Features**: TF-IDF, Bag-of-Words  
 - **DL Models**: CNN, LSTM, BiLSTM  
-- **Embeddings**: Word2Vec, GloVe, FastText, NRC Emotion Features  
+- **Embeddings**: Word2Vec, GloVe, FastText, NRC Emotion Features
+<p align="center">
+  ![Approach_1_Final3](https://github.com/user-attachments/assets/d2617aef-9892-4538-b837-0b2650201c96)
+</p>
+<p align="center">
+  <b>Figure 1:</b> System Architecture of Approach 2.
+</p> 
 
 ### 🔹 Approach 2: Transformer-Based Fine-Tuning
 - BERT
 - RoBERTa
 - XLM-RoBERTa  
-- Tokenization using HuggingFace Transformers with padding, truncation, and attention masks  
+- Tokenization using HuggingFace Transformers with padding, truncation, and attention masks
+<p align="center">
+  <img width="768" height="529" alt="image" src="https://github.com/user-attachments/assets/b8178868-b942-479e-9415-1501f05814c8" />
+</p>
+<p align="center">
+  <b>Figure 2:</b> System Architecture of Approach 2.
+</p>
+
 
 ### 🔹 Approach 3: Proposed Hybrid Fusion Model (Novel Contribution)
 - GloVe word embeddings
@@ -59,6 +72,12 @@ The research explores three major experimental pipelines:
   - CNN
   - LSTM
   - BiLSTM
+<p align="center">
+  <img width="910" height="597" alt="image" src="https://github.com/user-attachments/assets/42652c4e-cca8-4409-8fb1-0054a1506808" />
+</p>
+<p align="center">
+  <b>Figure 3:</b> System Architecture of Approach 3.
+</p> 
 
 ---
 
@@ -70,11 +89,6 @@ The research explores three major experimental pipelines:
 | **Cyber-Troll** | English dataset for cyber-aggression and trolling detection |
 
 > ⚠️ Datasets are publicly available and are **not redistributed** in this repository.
-
----
-
-## 📂 Repository Structure
-
 
 ---
 
@@ -90,20 +104,3 @@ Recommended evaluation artifacts:
 - Model architecture diagrams
 
 ---
-
-## 🚀 How to Run
-
-### Install dependencies
-'''bash
-pip install -r requirements.txt
-
-
-2. Execute notebooks in the following order:
-
-ML_Cyber_Troll_OLID.ipynb
-
-OLID_aggression.ipynb
-
-CYBER-TROLL_aggression.ipynb
-
-novel_OLID_CyberTroll.ipynb
